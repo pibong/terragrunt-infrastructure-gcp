@@ -39,6 +39,12 @@ For further information read the upstream documentation.
 
 Read Terraform documentation for [Google provider](https://registry.terraform.io/providers/hashicorp/google/latest/docs/guides/provider_reference#authentication) as a reference.
 
+### Set your GCP project IDs
+Replace placeholders in:
+- [live/global.hcl](https://github.com/pibong/terragrunt-infrastructure-gcp/blob/main/live/global.hcl#L9)
+- [live/dev/environment.hcl](https://github.com/pibong/terragrunt-infrastructure-gcp/blob/main/live/dev/environment.hcl#L4)
+- [live/prod/environment.hcl](https://github.com/pibong/terragrunt-infrastructure-gcp/blob/main/live/prod/environment.hcl#L4)
+
 ### Deploy a single module in an environment
 
 ```sh
